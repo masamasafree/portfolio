@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://life-memopad.com/wp-content/uploads/2020/04/IMG_0224.png);
+    background-size: cover;
+    color: #fffcf9;
+    text-align: center;
+}
+
+.top-wrapper h2 h3 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    color: #fffff0;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 254, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: #ffebcd;
+}
+
+.main-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #fffafa;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #00cfff;
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 50%;
+
+}
+
+
+.icon {
+    position: relative;
+}
+
+.icon p {
+    position: bottom;
+
+    color: #f08080;
+}
+
+.catch {
+    background-image: url(https://life-memopad.com/wp-content/uploads/2020/05/IMG_0256.png);
+    background-size: cover;
+    text-align: center
+}
+
+.catch h2 {
+    font-size: 25px color:#f9fff4
+}
+
+.catch p {
+    font-size: 18px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.btn-signup {
+    color: aliceblue;
+}
+
+.signup {
+    background-color: #f3981d;
+    color: aliceblue;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 3;
+}
+
+.support {
+    width: 1100px;
+    max-width: calc(100% - 40px);
+    padding: 40px 20px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-top-color: rgb(235, 185, 77);
+    border-top-style: solid;
+    border-bottom-color: rgb(235, 185, 77);
+    border-bottom-style: solid;
+}
+
+.erllowtxt {
+    color: orange;
+    font-size: 30px;
+}
+
+
+
+.txtl {
+    font-size: 25px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: black;
+
+}
+
+.footerwrap {
+    position: relative;
+
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.signup {
+    background-color: #f3981d;
+}
+
+
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 3;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 254, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 178px;
+
+
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: #ffebcd;
+}
+
+
+.menu-icon {
+    color: black;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+
+    display: none;
+}
+
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #fffafa;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #f08080;
+}
+
+.heading h2 {
+    font-weight: normal;
+    color: orangered;
+}
+
+.lesson {
+    float: left;
+    width: 50%;
+
+}
+
+
+
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: bottom;
+
+    color: #f08080;
+}
+
+.text-contents {
+    width: 90%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ffbf7f;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #fff9fc;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.sub-wrapper {
+    padding-bottom: 85px;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: black;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.catch h2 {
+    font-size: 25px color:#f9fff4
+}
+
+.catch p {
+    font-size: 18px;
+}
+
+.support {
+    width: 1100px;
+    max-width: calc(100% - 40px);
+    padding: 40px 20px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-top-color: rgb(235, 185, 77);
+    border-top-style: solid;
+    border-bottom-color: rgb(235, 185, 77);
+    border-bottom-style: solid;
+}
+
+.erllowtxt {
+    color: orange;
+
+}
+
+.txtl {
+    font-size: 25px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: black;
+
+}
+
+.footerwrap {
+    position: relative;
+
+}
